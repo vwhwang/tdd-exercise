@@ -8,7 +8,7 @@ require_relative '../lib/blackjack_score'
 
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
-describe 'Blackjac Score' do
+describe 'Blackjack Score' do
   it 'can calculate the score for a pair of number cards' do
 
     # Arrange
