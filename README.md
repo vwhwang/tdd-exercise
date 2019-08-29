@@ -29,7 +29,7 @@ When you finish talk with another pair and walk through your answers.
 
 You will write a method called:  `blackjack_score` which take an array of card values and returns the blackjack score.  The card values can be any of the following, number values 1-9, "King", "Queen", "Jack".  If the array contains an invalid card value or the total exceeds 21, raise an `ArgumentError`.  For example `blackjack_score([1, 5, 3])` will return 19.  You should also raise an error if the hand contains more than 5 cards.
 
-In this exercise you will complete the given tests in `specs/blackjack_score_specs.rb` and updating the `blackjack_score` method in `lib/blackjack_score.rb` to make it pass.
+In this exercise you will complete the given tests in `test/blackjack_score_test.rb` and updating the `blackjack_score` method in `lib/blackjack_score.rb` to make it pass.
 
 Step 1:  Complete the given test
 Step 2:  Update `blackjack_score` to pass the test
