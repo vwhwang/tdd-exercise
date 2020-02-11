@@ -86,12 +86,12 @@ Let's aim to finish two test cases of this method.
 
 Look at the test `"can calculate the score for a pair of number cards"` in `test/blackjack_score_test.rb`.
 
-Reading the pre-existing code, identify:
+Reading the pre-existing code, first identify:
 - What is the value for `hand` (Arange)
 - What is the expected value/outcome for the method `blackjack_score(hand)` to produce (Assert)
 - Which requirement the test case is validating
 
-Then translate your notes into the Ruby code that will be your **Assert** step. Use the Minitest Matchers table below.
+Then, translate your notes into the Ruby code that will be your **Assert** step. Use the Minitest Matchers table below.
 
 <details>
   
@@ -113,7 +113,7 @@ After that, high five your neighbor.
 
 Look at the test `"facecards have values calculated correctly"` in `test/blackjack_score_test.rb`.
 
-Identify:
+First, identify:
 - Which requirement the test case is validating
 - What is a specific value for `hand` that you can pick for this test case (Arange)
 - What is the expected value/outcome for the method `blackjack_score(hand)` to produce (Assert)
@@ -123,9 +123,11 @@ Are you having trouble coming up with a specific value for `hand`? That's becaus
 - Splitting this test into smaller tests. Consider renaming the test to "the facecard "King" is calculated correctly," and creating three more for the other face cards besides "King."
 - Adding a loop to this test. Did you know that you can have an `each` loop in a test? You can even put your Assert step inside of a loop.
 
-- Then create the pseudocode for the Arrange-Act-Assert of this test. Once you have that, check-in with a neighbor.
-- Then translate your pseudocode for this test into Ruby code. Then check-in with a neighbor.
-- Then proceed with the Red-Green-Refactor cycle!
+Second, create the pseudocode for the Arrange-Act-Assert of this test. Once you have that, check-in with a neighbor.
+
+Third, translate your pseudocode for this test into Ruby code. Then check-in with a neighbor.
+
+Finally, proceed with the Red-Green-Refactor cycle!
 
 ## Copy and Paste Reference of Minitest Matchers
 
