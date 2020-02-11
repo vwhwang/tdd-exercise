@@ -23,6 +23,8 @@ With a partner talk through the following questions and write down answers.
 2.  What edge cases can you determine?  Name at least 3.
 3.  How would you **test** these cases?
 
+(You may want to skim/read Part 2 for context on what you're testing)
+
 When you finish talk with another pair and walk through your answers.
 
 ## Part 2:  Calculating a Score
